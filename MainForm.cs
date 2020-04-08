@@ -28,13 +28,24 @@ namespace hrd
 
         private void MainTree_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            if (e.Node.Text.ToString() == "Личная карточка")
+            if (e.Node.Name == "lk")
             {
                 Form ownedForm = new Form();
                 ownedForm.Text = e.Node.FullPath;
                 this.AddOwnedForm(ownedForm);
                 ownedForm.Show();
-            } else if (e.Node.Text.ToString() == "Табель")
+            } else if (e.Node.Name == "tabel")
+            {
+                Tabel ownedForm = new Tabel();
+                this.AddOwnedForm(ownedForm);
+                ownedForm.Show();
+            } else if (e.Node.Name == "reports")
+            {
+                Form ownedForm = new Form();
+                ownedForm.Text = e.Node.FullPath;
+                this.AddOwnedForm(ownedForm);
+                ownedForm.Show();
+            } else if (e.Node.Name == "search")
             {
                 Form ownedForm = new Form();
                 ownedForm.Text = e.Node.FullPath;
