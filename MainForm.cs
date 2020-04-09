@@ -54,5 +54,27 @@ namespace hrd
             }
 
         }
+
+        private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            About ownedForm = new About();
+            ownedForm.Show();
+            //throw new System.NotImplementedException();
+        }
+
+        private void инструкцияToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Instruction ownedForm = new Instruction();
+            ownedForm.Show();
+            //throw new System.NotImplementedException();
+        }
+
+
+        private void вопросыИПредложенияToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Quetions ownedForm = new Quetions();
+            ownedForm.Show();
+            //throw new System.NotImplementedException();
+        }
     }
 }

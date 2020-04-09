@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instruction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instruction.Designer.cs">
+      <DependentUpon>Instruction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quetions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quetions.Designer.cs">
+      <DependentUpon>Quetions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tabel.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ilyal\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ilyal\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_hrd.1908847756.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ilyal\Downloads\hrd-master" t="IncludeRecursive">
+      <e p="About.cs" t="Include" />
+      <e p="About.Designer.cs" t="Include" />
+      <e p="App.config" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="hrd.csproj" t="IncludeRecursive" />
+      <e p="hrd.sln" t="IncludeFlat" />
+      <e p="Instruction.cs" t="Include" />
+      <e p="Instruction.Designer.cs" t="Include" />
+      <e p="MainForm.cs" t="Include" />
+      <e p="MainForm.Designer.cs" t="Include" />
+      <e p="MainForm.resx" t="Include" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Resources.Designer.cs" t="Include" />
+        <e p="Resources.resx" t="Include" />
+        <e p="Settings.Designer.cs" t="Include" />
+        <e p="Settings.settings" t="Include" />
+      </e>
+      <e p="Quetions.cs" t="Include" />
+      <e p="Quetions.Designer.cs" t="Include" />
+      <e p="Tabel.cs" t="Include" />
+      <e p="Tabel.Designer.cs" t="Include" />
+      <e p="Tabel.resx" t="Include" />
+    </e>
+  </component>
+</project>
